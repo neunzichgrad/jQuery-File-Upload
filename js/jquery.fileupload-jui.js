@@ -1,5 +1,5 @@
 /*
- * jQuery File Upload jQuery UI Plugin 1.3
+ * jQuery File Upload jQuery UI Plugin 1.3.1
  * https://github.com/blueimp/jQuery-File-Upload
  *
  * Copyright 2012, Sebastian Tschan
@@ -16,7 +16,7 @@
     'use strict';
     if (typeof define === 'function' && define.amd) {
         // Register as an anonymous AMD module:
-        define(['jquery', './jquery.fileupload-ui.js'], factory);
+        define(['jquery', './jquery.fileupload-ui'], factory);
     } else {
         // Browser globals:
         factory(window.jQuery);
